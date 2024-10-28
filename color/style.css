@@ -18,20 +18,22 @@ justify-content: center;
 flex-direction: column;
 }
 #copybtn{
-    margin-top: 30px;
+   
     margin: 20px;
-
-
 }
 nav{
+    flex-direction: column;
     display:flex;
     align-items: center;
     justify-content: center;
-    margin-top:20px;
+    margin-top:10px;
 }
 .outer{
-    height: 500px;
-    width: 500px;
+    height: 450px;
+    width: 450px;
     border:solid blue 2px;
   
+}
+#generateBTN{
+    margin-top: 20px;
 }
