@@ -1,0 +1,23 @@
+#color{
+    height: 100px;
+    width: 100px;
+    border: solid black 1px;
+
+}
+
+body{
+     margin: 0;
+     padding: 0;
+box-sizing: border-box;
+
+}
+div{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+#copybtn{
+    margin-top: 50px;
+
+}
