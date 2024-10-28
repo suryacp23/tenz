@@ -18,6 +18,20 @@ justify-content: center;
 flex-direction: column;
 }
 #copybtn{
-    margin-top: 50px;
+    margin-top: 30px;
+    margin: 20px;
 
+
+}
+nav{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:20px;
+}
+.outer{
+    height: 500px;
+    width: 500px;
+    border:solid blue 2px;
+  
 }

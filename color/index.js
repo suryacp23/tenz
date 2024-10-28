@@ -1,7 +1,16 @@
 let color1 = document.getElementById("color");
-let chooser = Math.floor(Math.random() * 999999);
+let code=document.getElementById("hdcode");
+var chooser; 
 
-let print = (color1.style.backgroundColor = `#${chooser}`);
+var printer;
+
+
+function colorchanger(){
+  chooser = Math.floor(Math.random() * 999999);
+printer=(color1.style.backgroundColor = `#${chooser}`);
+code.innerText=`#${chooser}`;
+}
+
 
 function copytext() {
   navigator.clipboard
