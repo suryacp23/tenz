@@ -1,0 +1,17 @@
+#one{
+    height: 700px;
+    width: 300px;
+    background-color:  black;
+    text-align: center;
+
+}
+img{width: 70px;
+    height: 80px;
+    border-radius: 50%;
+    margin-top: 20px;
+
+
+}
+body{
+    color: aliceblue;
+}
